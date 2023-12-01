@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+}
+body {
+    /*display: flex;*/
+    margin: 0px;
+    overflow: hidden; /*  Disable scrollbars */
+    background-color: black;
+}
+#my-gui-container {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    z-index: 10;
+}
