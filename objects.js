@@ -1,10 +1,10 @@
-import * as CUBE from '../../libs/objects/cube.js';
-import * as SPHERE from '../../libs/objects/sphere.js';
-import * as COW from '../../libs/objects/cow.js';
-import * as BUNNY from '../../libs/objects/bunny.js';
-import * as CYLINDER from '../../libs/objects/cylinder.js';
-import * as PYRAMID from '../../libs/objects/pyramid.js';
-import * as TORUS from '../../libs/objects/torus.js';
+import * as CUBE from './libs/objects/cube.js';
+import * as SPHERE from './libs/objects/sphere.js';
+import * as COW from './libs/objects/cow.js';
+import * as BUNNY from './libs/objects/bunny.js';
+import * as CYLINDER from './libs/objects/cylinder.js';
+import * as PYRAMID from './libs/objects/pyramid.js';
+import * as TORUS from './libs/objects/torus.js';
 
 export {objects}
 

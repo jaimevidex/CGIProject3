@@ -1,20 +1,20 @@
-import { buildProgramFromSources, loadShadersFromURLS, setupWebGL } from '../../libs/utils.js';
-import { length, flatten, inverse, mult, normalMatrix, perspective, lookAt, vec4, vec3, vec2, subtract, add, scale, scalem, rotate, rotateX, rotateY, rotateZ, normalize, translate } from '../../libs/MV.js';
-import { modelView, loadMatrix, multRotationY, multScale ,multTranslation, pushMatrix, popMatrix, multRotationZ, multRotationX } from "../../libs/stack.js";
+import { buildProgramFromSources, loadShadersFromURLS, setupWebGL } from './libs/utils.js';
+import { length, flatten, inverse, mult, normalMatrix, perspective, lookAt, vec4, vec3, vec2, subtract, add, scale, scalem, rotate, rotateX, rotateY, rotateZ, normalize, translate } from './libs/MV.js';
+import { modelView, loadMatrix, multRotationY, multScale ,multTranslation, pushMatrix, popMatrix, multRotationZ, multRotationX } from "./libs/stack.js";
 
-import * as dat from '../../libs/dat.gui.module.js';
+import * as dat from './libs/dat.gui.module.js';
 
-import * as CUBE from '../../libs/objects/cube.js';
-import * as SPHERE from '../../libs/objects/sphere.js';
-import * as COW from '../../libs/objects/cow.js';
-import * as BUNNY from '../../libs/objects/bunny.js';
-import * as CYLINDER from '../../libs/objects/cylinder.js';
-import * as PYRAMID from '../../libs/objects/pyramid.js';
-import * as TORUS from '../../libs/objects/torus.js';
+import * as CUBE from './libs/objects/cube.js';
+import * as SPHERE from './libs/objects/sphere.js';
+import * as COW from './libs/objects/cow.js';
+import * as BUNNY from './libs/objects/bunny.js';
+import * as CYLINDER from './libs/objects/cylinder.js';
+import * as PYRAMID from './libs/objects/pyramid.js';
+import * as TORUS from './libs/objects/torus.js';
 
-import * as STACK from '../../libs/stack.js';
+import * as STACK from './libs/stack.js';
 
-import { objects } from '../project03_/objects.js';
+import { objects } from './objects.js';
 
 let currentObjectIndex = 0;
 let curObject = objects.scene[0].children[currentObjectIndex];
