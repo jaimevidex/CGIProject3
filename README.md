@@ -2,7 +2,7 @@
 
 A small 3D engine written directly against **WebGL2**: a hierarchical scene graph, Phong lighting, an orbit camera, and a `dat.GUI` panel that lets you inspect and change the scene while it renders.
 
-**[Live demo](https://jaimevidex.github.io/CGIProject3/)**
+**[Live demo](https://jaimevidex.github.io/webgl-3d-scene/)**
 
 ## What's in the scene
 
@@ -29,7 +29,7 @@ The inspector is the interesting part: every control mutates the same state the 
 app.js              render loop, camera, GUI wiring
 objects.js          scene graph: nodes, transforms, materials, children
 shaders/            Phong vertex + fragment shaders
-libs/               course-provided scaffolding (MV.js, stack.js, geometry, dat.GUI)
+libs/               rendering scaffolding (MV.js, stack.js, geometry, dat.GUI)
 ```
 
 ## Run
@@ -43,4 +43,4 @@ python3 -m http.server 8000
 
 ## Context
 
-Built for the *Computação Gráfica e Interfaces* course at Instituto Superior Técnico. The rendering scaffolding under `libs/` is the course material (vendored here from a public copy of the same course setup) so the project runs standalone.
+The rendering scaffolding under `libs/` is included so the project runs standalone, without any external setup.
